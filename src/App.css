@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-blue{
+  background-color: aqua;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-red{
+  background-color: #ed9d9d;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bg-yellow{
+  background-color: #e4e482;
+}
+.blue-color{
+  color: hsl(192.08deg 63.4% 46.08%)
+}
+.pink-color {
+  color: hsl(309.17deg 67.29% 58.04%)
+}
+.title {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
+}
+.enviromentSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.emissionSection {
+  border: 1px solid #ccc;
+  padding: 25px 10px 0% 35px;
+  border-radius: 10px;
+}
+.scopeSection {
+  display: flex;
+  margin: 15px 0px;
+  justify-content: space-between;
+}
+.scope {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.line {
+  width: 20px;
+  height: 2px;
+  display: flex;
+  border-radius: 5px;
+}
+.scopeNumber {
+  padding: 1px 11px;
+  border-radius: 10px;
+}
+.scopeSectionGraph {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+.scopeSection2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+}
+.scopeSection2 svg {
+  font-size: 30px;
+}
+.scopeSection2 .icon{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.scopeSection2 h1{
+  font-size: 16px;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scopeSection2 p{
+  font-size: 16px;
+  margin: 0;
+}
+
+.scopeSection2 p span{
+  font-size: 46px;
+}
+
+
+.scopenumber1 {
+  margin: 0 auto;
+}
+.scopenumber2 {
+  padding: 1px 11px;
+  border-radius: 10px;
+  background-color: #ed9d9d;
+}
+.scopenumber3 {
+  padding: 1px 11px;
+  border-radius: 10px;
+  background-color: #e4e482;
+}
+.barChartSection {
+  display: flex;
+  margin-top: 40px;
+
 }
