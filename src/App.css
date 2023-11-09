@@ -32,7 +32,7 @@
 .scopeSection {
   display: flex;
   margin: 15px 0px;
-  justify-content: space-between;
+ gap: 20px;
 }
 .scope {
   display: flex;
